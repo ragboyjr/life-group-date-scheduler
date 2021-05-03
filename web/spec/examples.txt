@@ -1,0 +1,5 @@
+example_id                                                  | status | run_time        |
+----------------------------------------------------------- | ------ | --------------- |
+./app/src/lgds/domain/round_robin_gen_schedule_spec.rb[1:1] | passed | 0.00378 seconds |
+./app/src/lgds/domain/schedule_params_spec.rb[1:1]          | passed | 0.01751 seconds |
+./app/src/lgds/domain/scheduled_pair_spec.rb[1:1]           | passed | 0.00145 seconds |
