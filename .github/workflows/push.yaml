@@ -11,4 +11,6 @@ jobs:
         with:
           ruby-version: 3.0
           bundler-cache: true
+          working-directory: ./web
       - run: bundle exec rspec
+        working-directory: ./web
