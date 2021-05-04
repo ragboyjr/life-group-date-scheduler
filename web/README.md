@@ -32,4 +32,10 @@ Run the tests with:
 
 `bundle exec rspec`
 
-rspec looks for spec files within the app/src directory currently. 
+rspec looks for spec files within the src directory currently.
+
+## Domain Design
+
+Right now, the app and domain layer are within the src directory under the LGDS namespace.
+
+All Infra and UI code is just apart of the standard rails app in the app dir.
