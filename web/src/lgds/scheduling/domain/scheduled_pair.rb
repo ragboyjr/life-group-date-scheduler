@@ -1,4 +1,4 @@
-module LGDS::Domain
+module LGDS::Scheduling::Domain
   class ScheduledPair
     private_class_method :new
 

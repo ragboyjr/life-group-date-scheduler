@@ -1,4 +1,4 @@
-module LGDS::Domain
+module LGDS::Members::Domain
   class Group
     attr_reader :name, :members
 

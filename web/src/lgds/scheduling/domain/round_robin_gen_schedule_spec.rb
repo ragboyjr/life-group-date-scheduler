@@ -1,4 +1,4 @@
-RSpec.describe LGDS::Domain::RoundRobinGenSchedule do
+RSpec.describe LGDS::Scheduling::Domain::RoundRobinGenSchedule do
   before do
     @factory = LGDSFactory.new
   end

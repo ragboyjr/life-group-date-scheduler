@@ -1,4 +1,4 @@
-module LGDS::Domain
+module LGDS::Scheduling::Domain
   class GeneratedSchedule
     include Enumerable
 

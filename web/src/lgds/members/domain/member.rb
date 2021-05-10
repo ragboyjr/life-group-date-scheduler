@@ -1,9 +1,19 @@
-module LGDS::Domain
+module LGDS::Members::Domain
   class Member
     attr_reader :id, :name
 
     def initialize(name:, id: nil)
       @id = id
+      @name = name
+    end
+
+    # @param command [CreateMember]
+    # @return [Member]
+    def self.create(command)
+      new(name: command.name)
+    end
+
+    def change_name(name)
       @name = name
     end
 

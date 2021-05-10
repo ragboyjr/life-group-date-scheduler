@@ -1,4 +1,4 @@
-RSpec.describe LGDS::Domain::ScheduledSet do
+RSpec.describe LGDS::Scheduling::Domain::ScheduledSet do
   before do
     @factory = LGDSFactory.new
   end

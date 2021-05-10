@@ -14,6 +14,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+require_relative '../src/lgds'
 require_relative './lgds_factory'
 
 RSpec.configure do |config|

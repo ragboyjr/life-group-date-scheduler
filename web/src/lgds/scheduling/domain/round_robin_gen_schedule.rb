@@ -1,4 +1,4 @@
-module LGDS::Domain
+module LGDS::Scheduling::Domain
   # algorithm pulled from stack overflow: https://stackoverflow.com/a/6649732
   class RoundRobinGenSchedule
     # @param members [Array<Member>]
