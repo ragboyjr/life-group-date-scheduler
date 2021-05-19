@@ -1,11 +1,17 @@
 module LGDS::Members::Domain
   class Group
-    attr_reader :name, :members
+    attr_reader :id, :name, :members
 
     # @param name [String]
-    def initialize(name:, members: [])
+    def initialize(name:, members: [], id: nil)
       @name = name
       @members = members
+      @id = id
+    end
+
+    # @param command [CreateGroup]
+    def self.create(command)
+      new(name: command.name)
     end
 
     # @param member [Member]
